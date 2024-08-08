@@ -1,8 +1,19 @@
-.registro {
+
+
+
+body{
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px;
+  flex-direction: column;
 }
-.registro button {
-  margin-left: 5px;
+
+.listaRegistros{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.registro{
+  display: flex;
+  align-items: center;
+  width: 40vw;
 }
